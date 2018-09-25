@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ExpenseActivity">
+    <LinearLayout
+        android:id="@+id/expenseAddSectionID"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/Ex_detailsID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Expense Details"
+            />
+        <EditText
+            android:id="@+id/Ex_AmountID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Expense Amount in TK"
+            />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/Save_ExpenseID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="Record Expense"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/hideID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:text="Hide"
+            android:textAllCaps="false" />
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/Expense_listviewID"
+        android:layout_width="match_parent"
+        android:dividerHeight="5dp"
+        android:divider="@color/colorAccent"
+        android:layout_height="wrap_content">
+    </ListView>
+
+
+
+</LinearLayout>

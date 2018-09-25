@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+    <Button
+        android:id="@+id/nearbyID"
+        android:layout_marginTop="20dp"
+        android:layout_width="250dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:text="Nearby"/>
+    <Button
+        android:id="@+id/Add_eventID"
+        android:layout_marginTop="15dp"
+        android:layout_width="250dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:text="Travel Event"/>
+
+    <Button
+        android:id="@+id/travel_expenseID"
+        android:layout_marginTop="15dp"
+        android:layout_width="250dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:text="Travel Expense"/>
+
+    <Button
+        android:id="@+id/add_momentID"
+        android:layout_marginTop="15dp"
+        android:layout_width="250dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:text="Add Travel Moment"/>
+    <Button
+        android:id="@+id/show_momentID"
+        android:layout_marginTop="5dp"
+        android:layout_width="250dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:text="Show Travel Moment"/>
+    <Button
+        android:id="@+id/weatherID"
+        android:layout_marginTop="20dp"
+        android:layout_width="250dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:text="Weather Update"/>
+
+
+</LinearLayout>

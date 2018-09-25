@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddEventActivity">
+
+
+    <EditText
+        android:id="@+id/destinationID"
+        android:hint="Travel Destination"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"/>
+    <EditText
+        android:id="@+id/budgetID"
+        android:hint="Estimate Budget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:id="@+id/fromDateID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="From Date"
+        android:textSize="30dp"/>
+    <TextView
+        android:id="@+id/TodateID"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="To Date"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/createBtnID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Event"
+        android:textAllCaps="false"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/UpdateBtnID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:visibility="gone"
+        android:textAllCaps="false"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/show_eventID"
+        android:layout_marginTop="5dp"
+        android:layout_width="250dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:text="Show Travel Event"/>
+
+
+
+</LinearLayout>

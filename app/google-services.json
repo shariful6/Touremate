@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "789671503020",
+    "firebase_url": "https://userregistration-36a02.firebaseio.com",
+    "project_id": "userregistration-36a02",
+    "storage_bucket": "userregistration-36a02.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:789671503020:android:aeeb7c8076fb82ba",
+        "android_client_info": {
+          "package_name": "com.example.mobileappdevelop40.userregistrationwithfirbase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "789671503020-28hq9f5o1rshnqt81j7fkfvi6une2h3s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoBKc4-_vcfnCgzCI1kd1tTKUDR_ybgIw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:789671503020:android:e0c723380ecb9c3f",
+        "android_client_info": {
+          "package_name": "com.example.shariful.tourmate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "789671503020-28hq9f5o1rshnqt81j7fkfvi6une2h3s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoBKc4-_vcfnCgzCI1kd1tTKUDR_ybgIw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ShowEventActivity">
+
+
+    <LinearLayout
+        android:id="@+id/UpdateSectionID"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:layout_height="wrap_content">
+
+
+        <EditText
+            android:id="@+id/destID"
+            android:hint="Travel Destination"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"/>
+        <EditText
+            android:id="@+id/budID"
+            android:hint="Estimate Budget"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/fromID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="From Date"
+            android:textSize="20dp"/>
+        <TextView
+            android:id="@+id/ToID"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="To Date"
+            android:textSize="20dp"/>
+        <Button
+            android:id="@+id/UpID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listviewID"
+        android:layout_width="match_parent"
+        android:dividerHeight="5dp"
+        android:divider="@color/colorAccent"
+        android:layout_height="match_parent">
+
+
+
+    </ListView>
+
+</LinearLayout>
